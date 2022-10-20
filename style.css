@@ -65,3 +65,23 @@ img.right-side-intro {
     max-width: 400px;
     height: auto;
 }
+
+.main-info {
+    text-align: center;
+}
+
+.collective-info {
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+
+}
+.info {
+    max-width: 300px;
+}
+
+img {
+    border-color: #3882f6;
+}
