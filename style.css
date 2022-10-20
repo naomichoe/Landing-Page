@@ -47,8 +47,23 @@ button {
     border-radius: 3px;
     border: none;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .intro {
     display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 40px 200px;
+}
+
+div.left-side-intro {
+   padding-right: 50px;
+   padding-top: 40px;
+    
+}
+
+img.right-side-intro {
+    max-width: 400px;
+    height: auto;
 }
