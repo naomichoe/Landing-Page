@@ -82,6 +82,7 @@ img.right-side-intro {
     max-width: 300px;
 }
 
-img {
-    border-color: #3882f6;
+.info img {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
 }
