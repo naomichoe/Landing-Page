@@ -7,9 +7,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
-header {
+header, .intro {
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -30,4 +33,22 @@ a {
 
 a:visited {
     color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
 }
